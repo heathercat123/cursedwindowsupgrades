@@ -63,7 +63,7 @@ Everything should now just work.
 
 
 ## Windows ME to 2000
-Credits: [Skye](https://www.youtube.com/watch?v=V-X8DYejJm0)
+Credits: [Skye](https://skyeweeb.weebly.com/)
 
 ### Requirements
 - A Windows 2000 disc or ISO
