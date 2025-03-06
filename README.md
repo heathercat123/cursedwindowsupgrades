@@ -354,7 +354,7 @@ Credits: [LagLife](https://www.youtube.com/@laglife)
 1. Create a folder on your hard drive, then copy everything from the Windows 10 disc to it
 1. Open IDA as an Administrator and, from your new folder, open *sources\\setupcompat.dll*
 1. Allow IDA to search for symbols
-1. Hit ALT and T simultaneously and search for the function *ConX::Setup::Common:CWindowsVersionIsLaterThan*, then select *Find all occurances*
+1. Hit ALT and T simultaneously and search for the function *ConX::Setup::Common:CWindowsVersion::IsLaterThan*, then select *Find all occurances*
 1. Click on the one with no *Instruction*, scroll all the way to the bottom and pick the label with *mov eax, 1*
 1. Click on *Edit*, *Patch Program*, then *Change byte*
 1. Change `B8 01` to `B8 00` and hit *OK*
@@ -411,7 +411,7 @@ Note: The process to downgrade Windows 10 1909 to 1903 may be similar. However, 
 1. Create a folder on your hard drive, then copy everything from the 2004 disc to it
 1. Open IDA as an Administrator and, from your new folder, open *sources\\setupcompat.dll*
 1. Allow IDA to search for symbols
-1. Hit ALT and T simultaneously and search for the function *ConX::Setup::Common:CWindowsVersionIsLaterThan*, then select *Find all occurances*
+1. Hit ALT and T simultaneously and search for the function *ConX::Setup::Common:CWindowsVersion::IsLaterThan*, then select *Find all occurances*
 1. Click on the one with no *Instruction*, scroll all the way to the bottom, and pick the label with *mov eax, 1*
 1. Click on *Edit*, *Patch Program*, then *Change byte*
 1. Change `B8 01` to `B8 00` and hit *OK*
@@ -440,7 +440,7 @@ Notice: **THIS WILL DELETE ALL OF YOUR UWP APPS**
 1. Create a folder on your hard drive, then copy everything from the 1903/1909 disc to it
 1. Open IDA as an Administrator and, from your new folder, open *sources\\setupcompat.dll*
 1. Allow IDA to search for symbols
-1. Hit ALT and T simultaneously, search for the function *ConX::Setup::Common:CWindowsVersionIsLaterThan*, then select *Find all occurances*
+1. Hit ALT and T simultaneously, search for the function *ConX::Setup::Common:CWindowsVersion::IsLaterThan*, then select *Find all occurances*
 1. Click on the one with no *Instruction*, scroll all the way to the bottom, and pick the label with *mov eax, 1*
 1. Click on *Edit*, *Patch Program*, then *Change byte*
 1. Change `B8 01` to `B8 00` and hit *OK*
@@ -497,7 +497,7 @@ Notice: **THIS WILL DELETE ALL OF YOUR UWP APPS**
 1. Create a folder on your hard drive, then copy everything from the 1809 or 1803 disc to it
 1. Open IDA as an Administrator and, from your new folder, open *sources\\setupcompat.dll*
 1. Allow IDA to search for symbols
-1. Hit ALT and T simultaneously and search for the function *ConX::Setup::Common:CWindowsVersionIsLaterThan*, then select *Find all occurances*
+1. Hit ALT and T simultaneously and search for the function *ConX::Setup::Common:CWindowsVersion::IsLaterThan*, then select *Find all occurances*
 1. Click on the one with no *Instruction*, scroll all the way to the bottom, and pick the label with *mov eax, 1*
 1. Click on *Edit*, *Patch Program*, then *Change byte*
 1. Change `B8 01` to `B8 00` and hit *OK*
@@ -567,7 +567,7 @@ Notice: **THIS WILL DELETE ALL OF YOUR UWP APPS AND RESET YOUR LEGACY EDGE's USE
 1. Create a folder on your hard drive, then copy everything from the old Windows 10 disc to it
 1. Open IDA as an Administrator and, from your new folder, open *sources\setupcompat.dll*
 1. Allow IDA to search for symbols
-1. Hit ALT and T simultaneously and search for the function *ConX::Setup::Common:CWindowsVersionIsLaterThan*, then select *Find all occurances*
+1. Hit ALT and T simultaneously and search for the function *ConX::Setup::Common:CWindowsVersion::IsLaterThan*, then select *Find all occurances*
 1. Click on the one with no *Instruction*, scroll to the box right above the bottom one and pick the label with *mov eax, 1*
 1. Click on *Edit*, *Patch Program*, then *Change byte*
 1. Change `B8 01` to `B8 00` and hit *OK*
