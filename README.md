@@ -1,8 +1,7 @@
 # cursedwindowsupgrades
 A comprehensive list on how to unlock a bunch of unintended Windows upgrade paths, bypassing artificial blocks. \
 While those update paths do work, **DO NOT USE THEM IF YOU HAVE IMPORTANT DATA ON YOUR MACHINE!** \
-Also, note that if your hardware cannot run the Windows version you are upgrading to **IT WILL NOT WORK**.
-
+Also, note that if your hardware cannot run the Windows version you are upgrading to, **IT WILL NOT WORK**.
 With that said, we can now begin:
 
 
@@ -10,7 +9,7 @@ With that said, we can now begin:
 Credits: [Heathercat123](https://heathercat123.github.io)
 
 ### Requirements
-- [The x64 version of Application Verifier 4.0](https://github.com/heathercat123/cursedwindowsupgrades/blob/master/ApplicationVerifier.amd64.msi)
+- [The x64 version of Application Verifier 4.0](https://github.com/heathercat123/cursedwindowsupgrades/raw/refs/heads/master/ApplicationVerifier.amd64.msi)
 - An x64 Windows Vista CD or ISO
 - A machine running Windows XP x64 Edition
 
@@ -40,7 +39,7 @@ Credits: [Windows 386 on BetaArchive](https://www.betaarchive.com/forum/viewtopi
 - A Windows XP Professional SP3 English disc or ISO
 - [nLite](https://nliteos.com/)
 - [A program capable of extracting 7z and ISO files](https://7-zip.org/) (not included in this repository due to it not being abandonware)
-- [WINNT351toXP.7z](https://github.com/heathercat123/cursedwindowsupgrades/blob/master/WINNT351toXP.7z)
+- [WINNT351toXP.7z](https://github.com/heathercat123/cursedwindowsupgrades/raw/refs/heads/master/WINNT351toXP.7z)
 
 ### Upgrade process
 1. Extract your Windows XP ISO or copy its content to a folder if it's a disc
@@ -77,8 +76,8 @@ It's a common misconception to think that Windows ME cannot be upgraded to Windo
 Credits: Pinky, [Skye](https://skyeweeb.weebly.com/)
 
 ### Requirements
-- [The 32 bit version of Application Verifier 4.0](https://github.com/heathercat123/cursedwindowsupgrades/blob/master/ApplicationVerifier.x86.msi)
-- [TweakNT](https://github.com/heathercat123/cursedwindowsupgrades/blob/master/TweakNT.zip)
+- [The 32 bit version of Application Verifier 4.0](https://github.com/heathercat123/cursedwindowsupgrades/raw/refs/heads/master/ApplicationVerifier.x86.msi)
+- [TweakNT](https://github.com/heathercat123/cursedwindowsupgrades/raw/refs/heads/master/TweakNT.zip)
 - A 32 bit Windows Server 2003 disc or ISO
 - A machine running 32 bit Windows XP
 
@@ -116,8 +115,8 @@ Credits: Pinky, [Skye](https://skyeweeb.weebly.com/)
 Credits: Pinky
 
 ### Requirements
-- [The 32 bit version of Application Verifier 4.0](https://github.com/heathercat123/cursedwindowsupgrades/blob/master/ApplicationVerifier.x86.msi)
-- [The XP Conversion Pack](https://github.com/heathercat123/cursedwindowsupgrades/blob/master/xpconv.exe)
+- [The 32 bit version of Application Verifier 4.0](https://github.com/heathercat123/cursedwindowsupgrades/raw/refs/heads/master/ApplicationVerifier.x86.msi)
+- [The XP Conversion Pack](https://github.com/heathercat123/cursedwindowsupgrades/raw/refs/heads/master/xpconv.exe)
 - A 32 bit Windows XP disc or ISO
 - A machine running 32 bit Windows Server 2003
 
@@ -168,7 +167,7 @@ Expect a pretty broken install of Windows XP after this.
 Credits: Pinky, [Skye](https://skyeweeb.weebly.com/)
 
 ### Requirements
-- [The 32 bit version of Application Verifier 4.0](https://github.com/heathercat123/cursedwindowsupgrades/blob/master/ApplicationVerifier.x86.msi)
+- [The 32 bit version of Application Verifier 4.0](https://github.com/heathercat123/cursedwindowsupgrades/raw/refs/heads/master/ApplicationVerifier.x86.msi)
 - A 32 bit Windows XP disc or ISO
 - A machine running 32 bit Longhorn build 4053 or older
 
@@ -239,7 +238,7 @@ Credits: [Skye](https://skyeweeb.weebly.com/) \
 Notice: The current method of upgrading doesn't automatically transfer your programs
 
 ### Requirements
-- Application Verifier [x86](https://github.com/heathercat123/cursedwindowsupgrades/blob/master/ApplicationVerifier.x86.msi) or [x64](https://github.com/heathercat123/cursedwindowsupgrades/blob/master/ApplicationVerifier.amd64.msi), depending on your Windows install's architecture
+- Application Verifier [x86](https://github.com/heathercat123/cursedwindowsupgrades/raw/refs/heads/master/ApplicationVerifier.x86.msi) or [x64](https://github.com/heathercat123/cursedwindowsupgrades/raw/refs/heads/master/ApplicationVerifier.amd64.msi), depending on your Windows install's architecture
 - A Windows 8 disc or ISO. Windows 8.1 or above will not work.
 - A machine running Windows Vista
 
@@ -263,7 +262,7 @@ Notice: The current method of upgrading doesn't automatically transfer your prog
 Credits: [NTDev](https://ntdev.blog/), [Skye](https://skyeweeb.weebly.com/)
 
 ### Requirements
-- [GImageX](https://github.com/heathercat123/cursedwindowsupgrades/blob/master/gimagex.zip)
+- [GImageX](https://github.com/heathercat123/cursedwindowsupgrades/raw/refs/heads/master/gimagex.zip)
 - A Windows 11 disc or ISO
 - A Windows 10 1507 or 1511 (RTM or November Update) x64 disc or ISO
 - A machine running Windows 7 x64
