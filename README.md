@@ -15,19 +15,20 @@ Credits: [Heathercat123](https://heathercat123.github.io)
 - A machine running Windows XP x64 Edition
 
 ### Upgrade process
-1. Open *Application Verifier 4.0 (x64)
-1. Click on *File*, press *Add Application*
+1. Open *Application Verifier 4.0 (x64)*
+1. Click on *File*, then *Add Application*
 1. Navigate to the *sources* folder from your Windows Vista disc, click on *setup.exe*, then hit *Open*
 1. Uncheck *Basics*, expand *Compatibility*, then check *HighVersionLie*
 1. Right click *HighVersionLie*, then hit *Properties*
 1. Set *Major version* to 5, *Minor version* to 1, *Build number* to 2600 and *Service pack major* to 3
 1. Press *OK*, then press *Save*
-1. From the *sources* folder on your Windows Vista disc open *setup.exe*
+1. From the *sources* folder on your Windows Vista disc, open *setup.exe*
 1. On the *Get important updates for installation* page, hit *Do not get the latest updates for installation*
 1. On the product key page, hit *Next*, then *No*
 1. On the license terms page, check *I accept the license terms*, then hit *Next*
 1. You will now see the option to upgrade. Click it.
 1. If you see the *Compatibility Report* page, hit *Next*
+
 Windows will now upgrade flawlessly!
 
 
@@ -56,6 +57,7 @@ Credits: [Windows 386 on BetaArchive](https://www.betaarchive.com/forum/viewtopi
 1. Insert the ISO into your Windows NT 3.51 virtual machine, or burn it to a CD then insert it if it's a physical machine
 1. In Windows NT 3.51, navigate to *D:\\i386\\* and launch *WINNT35.exe*
 1. Finally, you can upgrade!
+
 Everything should now just work.
 
 
@@ -160,6 +162,7 @@ If you are on a Retail copy or you are finished with the steps above:
 1. You can now upgrade! Just do it!
 1. On the *Who will use this computer?* page of the OOBE, hit *Skip* if you want to keep your account.
 1. If you hear an error sound during the *welcome* screeen, press CTRL, ALT and DELETE simultaneously and press *OK* on every error box you see
+
 Expect a pretty broken install of Windows XP after this.
 
 
@@ -311,6 +314,7 @@ Credits: [NTDev](https://ntdev.blog/), [Skye](https://skyeweeb.weebly.com/)
 1. When the installer launches, select *No, thanks* on the *Get important updates* page
 1. The rest of setup will go as usual
 1. In the OOBE, disable *Advertising ID*
+
 The *Go back* option in the settings does not work and your drivers don't transfer, but the rest works flawlessly
 
 
@@ -326,6 +330,7 @@ Credits: [Skye](https://skyeweeb.weebly.com/)
 ### Upgrade process
 1. Just upgrade as if you were going from 10 to 11
 1. In the OOBE, all of the privacy settings are turned on. You can turn them off.
+
 The *Go back* option in the settings does not work, your drivers don't transfer and the Windows 8 UWP apps may not work, but the rest works flawlessly
 
 
@@ -408,6 +413,7 @@ Note: The process to downgrade Windows 10 1909 to 1903 may be similar. However, 
 1. On the *Get important updates* page, select *No, thanks*
 1. Let it downgrade!
 1. After you've arrived at the desktop, disable Windows Update
+
 The downgrade should now just work!
 
 
@@ -462,6 +468,7 @@ add-appxpackage -register "C:\Program Files\WindowsApps\*\AppxManifest.xml" -dis
 Running the last command thrice is necessary.
 1. Restart your computer
 1. Disable Windows Update
+
 Your Windows downgrade is now ready for use!
 
 
@@ -531,6 +538,7 @@ If you get an error about *ActivationStore.dat* or *ActivationStore.dat.LOG1*, j
 1. Restart your computer
 1. Disable Windows Update
 1. If you see applications which have weird name in the Start menu or it doesn't work, right click them, go to *More* -> *App settings*, then hit *Reset*
+
 Everything should work, except what requires a newer version of Windows 10, of course!
 
 
@@ -599,4 +607,5 @@ Running the last command thrice is necessary.
 1. In *cmd*, execute `wpeutil reboot`
 1. Wait until Windows gets to the desktop
 1. If you want to stop getting errors whenever you get to the desktop, you may disable *OneDrive* in the *Task Manager*'s *Startup* tab
+
 Your Windows 10 install should be good to go!
