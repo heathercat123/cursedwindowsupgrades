@@ -1,3 +1,6 @@
+# Migrated
+This repository has been migrated to [Codeberg](https://codeberg.org/heathercat123/cursedwindowsupgrades) and as such will be archived on Github.
+
 # Cursed Windows Upgrades
 A comprehensive list on how to unlock a bunch of unintended Windows upgrade paths, bypassing artificial blocks. \
 While those update paths do work, **DO NOT USE THEM IF YOU HAVE IMPORTANT DATA ON YOUR MACHINE!** \
